@@ -5,7 +5,7 @@ from tensorflow.keras.models import load_model
 from tensorflow.keras.preprocessing import image
 
 # Load the model
-model = load_model(r'C:\Users\prash\Downloads\Final\Final\model.h5')
+model = load_model("model.h5")
 
 # Disease categories
 categories = ['early blight', 'late blight', 'healthy']
